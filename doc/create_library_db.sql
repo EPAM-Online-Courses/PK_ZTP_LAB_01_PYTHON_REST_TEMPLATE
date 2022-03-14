@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS "tbl_books" (
     "id" INT NOT NULL AUTOINCREMENT PRIMARY KEY,
     "title" VARCHAR(255) NOT NULL,
     "author" VARCHAR(255) NOT NULL,
+    "quantity" INT NOT NULL),
     "quantity" INT NOT NULL);
 
 CREATE TABLE IF NOT EXISTS "tbl_rentals" (
